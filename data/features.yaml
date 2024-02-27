@@ -1,0 +1,44 @@
+about:
+  name: Weiminghui Ji
+  tagline: Quantitative Researcher
+  email: wj2309@columbia.edu
+  links:
+    - title: Email
+      url: mailto:wj2309@columbia.edu
+      icon: fa fa-envelope
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/weiminghui-kelly-ji
+      icon: fab fa-linkedin
+    - title: GitHub
+      url: https://github.com/jvvvmh
+      icon: fab fa-github
+  details: |
+    Weiminghui Ji is a highly-skilled Quantitative Research Associate at JPMorgan Chase. Her expertise spans sophisticated fixed-income models, including SOFR Options Pricing and volatility model development.
+
+
+skills:
+  - groupName: Programming
+    list:
+      - Python - C++ - SQL - Hive - Scrapy
+
+  - groupName: Data Science
+    list:
+      - Statistics - Machine Learning - Deep Neural Networks
+
+
+languages:
+  - name: Chinese
+    level: Native
+
+  - name: English
+    level: Professional
+
+# This will use the default widget: "details-list"
+awards:
+  - title: "Outstanding Graduate, Peking University"
+    date: "2020"
+  - title: "China National Scholarship"
+    date: "2019"
+
+certificates:
+

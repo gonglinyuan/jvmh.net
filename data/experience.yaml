@@ -1,0 +1,48 @@
+- company: JPMorgan Chase
+  page: 1
+  roles:
+    - role: Quantitative Research Associate, Rates Options
+      details: |
+        - **SOFR Options Pricing:** Supported C++ pricing and risk library of daily compounding SOFR Caps and Floors, CMESOFR1M future options by adjusting time to expiry using one-third rule.
+        - **Equity Volatility Model:** Researched long-term equity volatility for Exotics, enhanced C++ pricing model to improve stability and ensure arbitrage-free.
+        - **New Instrument Deployment:** Developed the instrument and market classes of TBA (mortgage-backed security) future, designed the lifecycle and risk management functions.
+        - **LIBOR Migration:** Optimized the benchmark swaps of the same bucketed Delta as the existing LIBOR Swaps. Streamlined current hedging positions, reduced computational demands across the company. Optimized the population of swaps in the portfolio to rebook as fallback swaps, offsetting the risk change caused by the fallback of Caps.
+        - **Delta Hedging Tool:** Optimized the weights of Futures contracts to hedge short-term rates Delta. Created an algorithm that strikes a balance between minimizing the hedging error and taking into account the cost and efficiency of the hedge.
+        - **Gamma PNL Hedging Tool:** Use exchanged traded products to hedge short-expiry swaptions with their historical time-series data. Improved the prediction target by analyzing the mathematical relationship between Gamma PNL, Vega PNL and Theta PNL.
+        - **PNL Projection and Scenario Analysis:** Developed a PNL prediction tool for user-input trading strategies, displaying copy-forward PNLs under various rates scenarios.
+        - **Bermudan Options:** Improved the time PNL calculator around notification. Developed the logic for compounding rate pay-accrued.
+      date: Feb 2022 - Present
+
+    - role: Quantitative Research Summer Associate, Rates Options
+      details: |
+        - **Scalable Backtesting Framework:** Derived an efficient Delta hedging formula of swaptions, deployed a distributed backtesting tool of implied/realized Vol strategies, generated report of trends of swaption market
+      date: Jun 2021 - Sep 2021
+
+- company: Guotai Junan Futures
+  page: 2
+  roles:
+    - role: Quantitative Research Intern, Asset Management Department
+      details: |
+        - **Backtesting System:** Designed and developed a backtesting system for futures CTA strategies with Python, adapted backtesting framework to real quantitative trading system, automated the updating of factor scores with *schedule*.
+        - **Acceleration with Parallel Computing:** Accelerated backtesting significantly with Python *multiprocessing*.
+        - **News Crawler:** Strategically located news hits data source for tracking market sentiment by exploring web source code, crawled commodity news data with Scrapy, generated alternative factors with natural language processing techniques.
+        - **MultiFactor Model:** Researched 30 commodity futures with 7 years’ 5-min data, created robust factors with stable returns.
+      date: Jun 2020 - Sep 2020
+
+- company: Yinhua Fund Management
+  page: 2
+  roles:
+    - role: Quantitative Research Intern, Strategy Development Department
+      details: |
+        - **Financial Text Analysis:** Applied TextRank algorithm to generate financial news summary with Python.
+        - **Deep Learning & Natural Language Processing:** Researched relationship between financial news and the stock market, trained a regression model to predict stock returns using TFIDF features and sentiment features extracted by LSTM model.
+      date: Jan 2019 - Apr 2019
+
+- company: Fosun
+  page: 2
+  roles:
+    - role: Data Analyst Intern, Algorithm Group
+      details: |
+        - **Recommendation System:** Created *user portraits* on Hive for JPush (a large-scale APP push platform) with SQL, estimated customers’ preference levels for different fields such as sports and travel with Python.
+        - **Insurance Risk Prediction:** Trained Gradient Boosting Decision Trees with XGBoost, predicted risk of claims with an F1 score of 0.92
+      date: Jan 2018 - Feb 2018

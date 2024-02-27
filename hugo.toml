@@ -1,0 +1,4 @@
+baseURL = 'https://jvmh.net/'
+languageCode = 'en-us'
+title = 'Weiminghui Ji'
+theme = 'resume-a4'
