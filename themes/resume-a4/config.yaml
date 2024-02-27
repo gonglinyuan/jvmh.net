@@ -93,13 +93,14 @@ params:
     show: true
     credits: true
     footnote: >-
-      You can print this resume in A4 size or save as pdf. | Last update on 2020-09-01.
+      You can print this resume in paper or save as pdf. | Last update on 2024-02-27.
     links:
-      - prefix: Contact me on
-        title: Linkedin
-        url: 'https://linkedin.com/in/mertbakir/'
+      - title: Email
+        url: mailto:wj2309@columbia.edu
+        icon: fa fa-envelope
+      - title: LinkedIn
+        url: https://www.linkedin.com/in/weiminghui-kelly-ji
         icon: fab fa-linkedin
-      - prefix: Check out my
-        title: Website
-        url: 'https://mertbakir.gitlab.io/about/'
-        icon: fas fa-globe
+      - title: GitHub
+        url: https://github.com/jvvvmh
+        icon: fab fa-github
