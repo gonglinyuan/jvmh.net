@@ -3,19 +3,16 @@
   roles:
     - role: Quantitative Research Associate, Rates Options
       details: |
-        - **SOFR Options Pricing:** Supported C++ pricing and risk library of daily compounding SOFR Caps and Floors, CMESOFR1M future options by adjusting time to expiry using one-third rule.
-        - **Equity Volatility Model:** Researched long-term equity volatility for Exotics, enhanced C++ pricing model to improve stability and ensure arbitrage-free.
-        - **New Instrument Deployment:** Developed the instrument and market classes of TBA (mortgage-backed security) future, designed the lifecycle and risk management functions.
-        - **LIBOR Migration:** Optimized the benchmark swaps of the same bucketed Delta as the existing LIBOR Swaps. Streamlined current hedging positions, reduced computational demands across the company. Optimized the population of swaps in the portfolio to rebook as fallback swaps, offsetting the risk change caused by the fallback of Caps.
-        - **Delta Hedging Tool:** Optimized the weights of Futures contracts to hedge short-term rates Delta. Created an algorithm that strikes a balance between minimizing the hedging error and taking into account the cost and efficiency of the hedge.
-        - **Gamma PNL Hedging Tool:** Use exchanged traded products to hedge short-expiry swaptions with their historical time-series data. Improved the prediction target by analyzing the mathematical relationship between Gamma PNL, Vega PNL and Theta PNL.
-        - **PNL Projection and Scenario Analysis:** Developed a PNL prediction tool for user-input trading strategies, displaying copy-forward PNLs under various rates scenarios.
-        - **Bermudan Options:** Improved the time PNL calculator around notification. Developed the logic for compounding rate pay-accrued.
+        - **SOFR Futures Arbitrage:** Built an arbitrage strategy to trade quarterly SOFR futures against the monthlies with Python. Conducted thorough analysis of FOMC risk and granular SOFR refix risk. Constructed an efficient frontier to trade off expected PnL against the risk undertaken. Implemented continuous enhancements to the computational efficiency to support live trading. 
+        - **TermSOFR Refix Hedge:** Developed a stepwise SOFR curve with VWAP of futures in accordance with CME TermSOFR methodology. Solved for optimal future weights to hedge TermSOFR refix risk through regression across various FOMC scenarios. Backtested hedging effectiveness and optimized the timing of hedging, focusing on month end with TWAP as a benchmark.
+        - **Vol-of-Vol and Skew Relative Value:** Created a methodology to imply swaption vol-of-vol and skew parameters from strangles and risk-reversals. Implemented the realized version of these parameters and automated daily generation of relative-value reports for actively traded structures.
+        - **TBA Option:** Implemented implied and realized hedge ratios for TBA Options against various instruments including treasury future options, bond forward options, and swaptions. Conducted rolling regression analysis of TBA realized volatility against FV, TY, and US realized volatilities with forward feature selection.
+        - **Bermudan Option:** Programmatically selected high-quality benchmark instruments from Totem Data. Developed a volatility adjustment curve based on the expected lifetime. Built an arbitrage detection tool for Accreters with Bullet prices adjusted to Totem data.
+        - **Pricing Library:** Supported pricing of SOFR caps by adjusting time-to-expiry, life-cycling of LIBOR fallback vanilla options and Bermudans with C++, quick parsing and pricing of YCSO and forward-vol queries.
       date: Feb 2022 - Present
-
     - role: Quantitative Research Summer Associate, Rates Options
       details: |
-        - **Scalable Backtesting Framework:** Derived an efficient Delta hedging formula of swaptions, deployed a distributed backtesting tool of implied/realized Vol strategies, generated report of trends of swaption market
+        - **Swaption Backtesting:** Designed a scalable framework for backtesting Gamma selling strategies with various Delta hedge ratios. Developed customized backtesting tools based on relative values such like implied/realized vol.
       date: Jun 2021 - Sep 2021
 
 - company: Guotai Junan Futures
@@ -23,10 +20,8 @@
   roles:
     - role: Quantitative Research Intern, Asset Management Department
       details: |
-        - **Backtesting System:** Designed and developed a backtesting system for futures CTA strategies with Python, adapted backtesting framework to real quantitative trading system, automated the updating of factor scores with *schedule*.
-        - **Acceleration with Parallel Computing:** Accelerated backtesting significantly with Python *multiprocessing*.
-        - **News Crawler:** Strategically located news hits data source for tracking market sentiment by exploring web source code, crawled commodity news data with Scrapy, generated alternative factors with natural language processing techniques.
-        - **MultiFactor Model:** Researched 30 commodity futures with 7 years’ 5-min data, created robust factors with stable returns.
+        - **Enhanced CTA Strategy:** Developed Python-based backtesting framework for futures CTA strategies with contract rolling. Backtested 30 commodity futures over 7 years using 5-minute data for hyperparameter optimization based on Calmar and Sharpe ratio.
+        - **Market Sentiment Feature:** Identified and integrated a news click data source for tracking market sentiment by strategically parsing web source code. Utilized Scrapy to crawl commodity news data and applied natural language processing techniques to generate alternative features. Backtested the daily close data and iterated on the realtime API.
       date: Jun 2020 - Sep 2020
 
 - company: Yinhua Fund Management
@@ -43,6 +38,4 @@
   roles:
     - role: Data Analyst Intern, Algorithm Group
       details: |
-        - **Recommendation System:** Created *user portraits* on Hive for JPush (a large-scale APP push platform) with SQL, estimated customers’ preference levels for different fields such as sports and travel with Python.
-        - **Insurance Risk Prediction:** Trained Gradient Boosting Decision Trees with XGBoost, predicted risk of claims with an F1 score of 0.92
-      date: Jan 2018 - Feb 2018
+        - **Insurance Claim Prediction:** Developed user portraits using SQL on Hive with car insurance data. Trained Gradient Boosting Decision Trees using XGBoost and k-folds cross-validation, achieving a 90% F1 score for risk prediction on training data. Successfully delivered and validated the model with the car insurance company.
