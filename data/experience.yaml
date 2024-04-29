@@ -39,3 +39,4 @@
     - role: Data Analyst Intern, Algorithm Group
       details: |
         - **Insurance Claim Prediction:** Developed user portraits using SQL on Hive with car insurance data. Trained Gradient Boosting Decision Trees using XGBoost and k-folds cross-validation, achieving a 90% F1 score for risk prediction on training data. Successfully delivered and validated the model with the car insurance company.
+      date: Jan 2018 - Feb 2018
