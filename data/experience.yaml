@@ -1,7 +1,7 @@
 - company: JPMorgan Chase
   page: 1
   roles:
-    - role: Quantitative Research Associate, Rates Options
+    - role: VP, Quantitative Research, Rates Options
       details: |
         - **SOFR Futures Arbitrage:** Built an arbitrage strategy to trade quarterly SOFR futures against the monthlies with Python. Conducted thorough analysis of FOMC risk and granular SOFR refix risk. Constructed an efficient frontier to trade off expected PnL against the risk undertaken. Implemented continuous enhancements to the computational efficiency to support live trading. 
         - **TermSOFR Refix Hedge:** Developed a stepwise SOFR curve with VWAP of futures in accordance with CME TermSOFR methodology. Solved for optimal future weights to hedge TermSOFR refix risk through regression across various FOMC scenarios. Backtested hedging effectiveness and optimized the timing of hedging, focusing on month end with TWAP as a benchmark.
